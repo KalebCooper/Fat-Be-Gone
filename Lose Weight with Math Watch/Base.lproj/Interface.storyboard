@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder.WatchKit.Storyboard" version="3.0" toolsVersion="13168.3" targetRuntime="watchKit" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="AgC-eL-Hgc" pageOrientation="vertical">
+    <device id="watch42" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="watchOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13147.4"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBWatchKitPlugin" version="13042.2"/>
+    </dependencies>
+    <scenes>
+        <!--Lose Weight-->
+        <scene sceneID="aou-V4-d1y">
+            <objects>
+                <controller title="Lose Weight" animationDuration="1" alwaysBounce="YES" id="AgC-eL-Hgc" customClass="InterfaceController" customModule="Lose_Weight" customModuleProvider="target">
+                    <items>
+                        <group width="1" height="0.14999999999999999" alignment="left" layout="vertical" id="kPn-ag-rMI">
+                            <items>
+                                <separator height="1" alignment="center" id="WpZ-Qf-bSi"/>
+                                <label alignment="left" text="Day Overview" id="gj5-IE-zR7"/>
+                            </items>
+                        </group>
+                        <group width="1" height="1" alignment="left" id="vSr-OO-ane">
+                            <items>
+                                <group width="0.5" height="1" alignment="left" layout="vertical" id="71K-0i-Hui">
+                                    <items>
+                                        <label width="1" height="21" alignment="left" text="9999" textAlignment="center" id="hvp-4k-cm2">
+                                            <fontDescription key="font" type="system" pointSize="24"/>
+                                        </label>
+                                        <label width="136" height="13" alignment="center" text="-" textAlignment="center" id="HG4-Ev-MJT"/>
+                                        <label width="1" height="21" alignment="center" text="9999" textAlignment="center" id="g7B-iE-EAv">
+                                            <color key="textColor" red="1" green="0.14913141730000001" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                            <fontDescription key="font" type="system" pointSize="24"/>
+                                        </label>
+                                        <label width="136" height="13" alignment="center" text="+" textAlignment="center" id="Hwh-pP-gSj"/>
+                                        <label width="1" height="20" alignment="center" text="9999" textAlignment="center" id="rUZ-nR-mgX">
+                                            <color key="textColor" red="0.0" green="0.58980089430000004" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                            <fontDescription key="font" type="system" pointSize="24"/>
+                                        </label>
+                                        <label width="135" height="13" alignment="center" text="=" textAlignment="center" id="opA-MC-hLi"/>
+                                        <label width="1" height="20" alignment="center" text="9999" textAlignment="center" id="t1R-vU-pHM">
+                                            <color key="textColor" red="0.45009386540000001" green="0.98132258650000004" blue="0.4743030667" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                            <fontDescription key="font" type="system" pointSize="24"/>
+                                        </label>
+                                    </items>
+                                </group>
+                                <group width="0.5" height="1" alignment="left" layout="vertical" id="X5E-i4-mqw">
+                                    <items>
+                                        <label width="1" height="21" alignment="left" text="Goal" textAlignment="left" id="HKf-M1-aXI">
+                                            <color key="textColor" cocoaTouchSystemColor="lightTextColor"/>
+                                            <fontDescription key="font" style="UICTFontTextStyleCaption2"/>
+                                        </label>
+                                        <label width="52" height="13" alignment="left" id="Xjc-1k-gIb">
+                                            <color key="textColor" cocoaTouchSystemColor="lightTextColor"/>
+                                            <fontDescription key="font" style="UICTFontTextStyleCaption2"/>
+                                        </label>
+                                        <label width="1" height="21" alignment="left" text="Food" textAlignment="left" id="j0H-Xr-VJk">
+                                            <color key="textColor" cocoaTouchSystemColor="lightTextColor"/>
+                                            <fontDescription key="font" style="UICTFontTextStyleCaption2"/>
+                                        </label>
+                                        <label width="52" height="13" alignment="left" id="WhP-UR-0kc">
+                                            <color key="textColor" cocoaTouchSystemColor="lightTextColor"/>
+                                            <fontDescription key="font" style="UICTFontTextStyleCaption2"/>
+                                        </label>
+                                        <label width="1" height="21" alignment="left" text="Active" textAlignment="left" id="MQ0-0R-oUY">
+                                            <color key="textColor" cocoaTouchSystemColor="lightTextColor"/>
+                                            <fontDescription key="font" style="UICTFontTextStyleCaption2"/>
+                                        </label>
+                                        <label width="52" height="13" alignment="left" id="DFc-6J-0Xv">
+                                            <color key="textColor" cocoaTouchSystemColor="lightTextColor"/>
+                                            <fontDescription key="font" style="UICTFontTextStyleCaption2"/>
+                                        </label>
+                                        <label width="1" height="21" alignment="left" text="Remaining" numberOfLines="3" minimumScaleFactor="0.69999999999999996" id="lhT-86-SIt">
+                                            <color key="textColor" cocoaTouchSystemColor="lightTextColor"/>
+                                            <fontDescription key="font" style="UICTFontTextStyleCaption2"/>
+                                        </label>
+                                    </items>
+                                </group>
+                            </items>
+                        </group>
+                    </items>
+                    <variation key="device=watch42mm" alwaysBounce="YES" title="Lose Weight"/>
+                    <connections>
+                        <outlet property="exerciseCaloriesOutlet" destination="rUZ-nR-mgX" id="q3U-g0-QN3"/>
+                        <outlet property="foodCaloriesOutlet" destination="g7B-iE-EAv" id="zUD-wS-i9n"/>
+                        <outlet property="goalCaloriesOutlet" destination="hvp-4k-cm2" id="wxt-7X-xh1"/>
+                        <outlet property="remainingCaloriesOutlet" destination="t1R-vU-pHM" id="qA0-0v-tyH"/>
+                    </connections>
+                </controller>
+            </objects>
+            <point key="canvasLocation" x="219.69230769230771" y="389.25641025641028"/>
+        </scene>
+        <!--Static Notification Interface Controller-->
+        <scene sceneID="AEw-b0-oYE">
+            <objects>
+                <notificationController id="YCC-NB-fut">
+                    <items>
+                        <label alignment="left" text="Alert Label" id="IdU-wH-bcW"/>
+                    </items>
+                    <notificationCategory key="notificationCategory" identifier="myCategory" id="JfB-70-Muf"/>
+                    <connections>
+                        <outlet property="notificationAlertLabel" destination="IdU-wH-bcW" id="JKC-fr-R95"/>
+                        <segue destination="4sK-HA-Art" kind="relationship" relationship="dynamicNotificationInterface" id="kXh-Jw-8B1"/>
+                    </connections>
+                </notificationController>
+            </objects>
+            <point key="canvasLocation" x="220" y="643"/>
+        </scene>
+        <!--Notification Controller-->
+        <scene sceneID="ZPc-GJ-vnh">
+            <objects>
+                <controller id="4sK-HA-Art" customClass="NotificationController" customModule="Lose_Weight" customModuleProvider="target"/>
+            </objects>
+            <point key="canvasLocation" x="468" y="643"/>
+        </scene>
+    </scenes>
+</document>

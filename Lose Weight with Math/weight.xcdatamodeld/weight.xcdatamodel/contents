@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<model type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="13209.6" systemVersion="" minimumToolsVersion="Automatic" sourceLanguage="Swift" userDefinedModelVersionIdentifier="">
+    <entity name="Foods" representedClassName="Foods" syncable="YES" codeGenerationType="class">
+        <attribute name="calories" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="date" optional="YES" attributeType="Date" usesScalarValueType="NO" syncable="YES"/>
+        <attribute name="emoji" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="meal" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="name" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="ndbno" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="servings" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="servingSize" optional="YES" attributeType="String" syncable="YES"/>
+    </entity>
+    <entity name="Logs" representedClassName="Logs" syncable="YES" codeGenerationType="class">
+        <attribute name="date" optional="YES" attributeType="Date" usesScalarValueType="NO" syncable="YES"/>
+        <attribute name="weight" optional="YES" attributeType="String" syncable="YES"/>
+    </entity>
+    <entity name="UserAppSettings" representedClassName="UserAppSettings" syncable="YES" codeGenerationType="class">
+        <attribute name="getNotification" optional="YES" attributeType="Boolean" usesScalarValueType="YES" syncable="YES"/>
+        <attribute name="healthApp" optional="YES" attributeType="Boolean" usesScalarValueType="YES" syncable="YES"/>
+        <attribute name="icloudBackup" optional="YES" attributeType="Boolean" usesScalarValueType="YES" syncable="YES"/>
+        <attribute name="touchID" optional="YES" attributeType="Boolean" usesScalarValueType="YES" syncable="YES"/>
+    </entity>
+    <entity name="UserHealth" representedClassName="UserHealth" syncable="YES" codeGenerationType="class">
+        <attribute name="activityLevel" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="currentWeight" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="desiredLoss" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="goalWeight" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="height" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="startWeight" optional="YES" attributeType="String" syncable="YES"/>
+    </entity>
+    <entity name="UserProfile" representedClassName="UserProfile" syncable="YES" codeGenerationType="class">
+        <attribute name="age" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="dateOfBirth" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="firstName" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="gender" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="lastName" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="profileImage" optional="YES" attributeType="Binary" syncable="YES"/>
+    </entity>
+    <elements>
+        <element name="Foods" positionX="-45" positionY="45" width="128" height="165"/>
+        <element name="Logs" positionX="-63" positionY="-18" width="128" height="75"/>
+        <element name="UserAppSettings" positionX="-54" positionY="9" width="128" height="105"/>
+        <element name="UserHealth" positionX="-36" positionY="18" width="128" height="135"/>
+        <element name="UserProfile" positionX="-63" positionY="0" width="128" height="135"/>
+    </elements>
+</model>

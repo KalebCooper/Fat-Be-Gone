@@ -1,0 +1,1385 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3400A0421F356C0200992C40 /* Lose Weight with Math Watch.app in Embed Watch Content */ = {isa = PBXBuildFile; fileRef = 34C0B9661F2EFA5600D8E571 /* Lose Weight with Math Watch.app */; };
+		3405EF851F39853C00D2A25B /* ConfirmFoodVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3405EF841F39853C00D2A25B /* ConfirmFoodVC.swift */; };
+		3416BCE61F393FD800E8B98F /* beep.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 3416BCE51F393FD800E8B98F /* beep.mp3 */; };
+		341B47801F2702EE00B37647 /* appLaunchVideo.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 341B477F1F2702EE00B37647 /* appLaunchVideo.mp4 */; };
+		342925BA1F285C390093226F /* MoreVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 342925B91F285C390093226F /* MoreVC.swift */; };
+		342925BC1F285C440093226F /* MyProfileVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 342925BB1F285C440093226F /* MyProfileVC.swift */; };
+		342925BE1F285C4D0093226F /* MyGoalsVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 342925BD1F285C4D0093226F /* MyGoalsVC.swift */; };
+		342925C01F285C560093226F /* StatisticsVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 342925BF1F285C560093226F /* StatisticsVC.swift */; };
+		342925C21F285C5D0093226F /* SettingsVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 342925C11F285C5D0093226F /* SettingsVC.swift */; };
+		342925C41F285C650093226F /* AboutAppVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 342925C31F285C650093226F /* AboutAppVC.swift */; };
+		342B65471F31249A00AE44AA /* MoreNew.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 342B65451F31249A00AE44AA /* MoreNew.storyboard */; };
+		342B654A1F3125E200AE44AA /* DayOverview.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 342B65481F3125E200AE44AA /* DayOverview.storyboard */; };
+		342B654D1F31265500AE44AA /* WeightLog.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 342B654B1F31265500AE44AA /* WeightLog.storyboard */; };
+		342B65501F3128A400AE44AA /* BMI.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 342B654E1F3128A400AE44AA /* BMI.storyboard */; };
+		342B65531F3128FD00AE44AA /* SearchFood.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 342B65511F3128FD00AE44AA /* SearchFood.storyboard */; };
+		342B65561F312A3500AE44AA /* MoreSettings.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 342B65541F312A3500AE44AA /* MoreSettings.storyboard */; };
+		342B65591F312A9D00AE44AA /* MoreProfile.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 342B65571F312A9D00AE44AA /* MoreProfile.storyboard */; };
+		342B655C1F312AD500AE44AA /* MoreGoals.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 342B655A1F312AD500AE44AA /* MoreGoals.storyboard */; };
+		343450411F1D4BB5007340C6 /* weight.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 3434503F1F1D4BB5007340C6 /* weight.xcdatamodeld */; };
+		343450431F1D5206007340C6 /* profileVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 343450421F1D5206007340C6 /* profileVC.swift */; };
+		3447651A1F3A3AAF0068C1AD /* ViewFoodsVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 344765191F3A3AAF0068C1AD /* ViewFoodsVC.swift */; };
+		3447B4011F12F18400A57AFA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3447B4001F12F18400A57AFA /* AppDelegate.swift */; };
+		3447B4031F12F18400A57AFA /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3447B4021F12F18400A57AFA /* ViewController.swift */; };
+		3447B4061F12F18400A57AFA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3447B4041F12F18400A57AFA /* Main.storyboard */; };
+		3447B4081F12F18400A57AFA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3447B4071F12F18400A57AFA /* Assets.xcassets */; };
+		3447B40B1F12F18400A57AFA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3447B4091F12F18400A57AFA /* LaunchScreen.storyboard */; };
+		3447B4161F12F18400A57AFA /* Lose_Weight_with_MathTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3447B4151F12F18400A57AFA /* Lose_Weight_with_MathTests.swift */; };
+		3447B4211F12F18500A57AFA /* Lose_Weight_with_MathUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3447B4201F12F18500A57AFA /* Lose_Weight_with_MathUITests.swift */; };
+		3447B42F1F12F39D00A57AFA /* BmiVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3447B42E1F12F39D00A57AFA /* BmiVC.swift */; };
+		3448CEDC1F2A8E7A00C5799F /* WeightLogDetailsVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3448CEDB1F2A8E7A00C5799F /* WeightLogDetailsVC.swift */; };
+		346FF58B1F27071E00402749 /* SetupVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 346FF58A1F27071E00402749 /* SetupVC.swift */; };
+		3473291B1F1E96CD007E67FC /* CustomSlider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3473291A1F1E96CD007E67FC /* CustomSlider.swift */; };
+		347C8B661F37DC5000474C33 /* BarcodeReaderVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 347C8B651F37DC5000474C33 /* BarcodeReaderVC.swift */; };
+		3480F3311F36AB0A00FD53B1 /* FoodDetailsVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3480F3301F36AB0A00FD53B1 /* FoodDetailsVC.swift */; };
+		348A88961F3C3D4C009307BD /* AddCustomFoodVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 348A88951F3C3D4C009307BD /* AddCustomFoodVC.swift */; };
+		349B44281F2168130089DF69 /* logVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 349B44271F2168130089DF69 /* logVC.swift */; };
+		34AF2A151F3C378900A2942F /* CustomFoodVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34AF2A141F3C378900A2942F /* CustomFoodVC.swift */; };
+		34B069331F2D9A9500A41CE5 /* NotificationCenter.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 34B069321F2D9A9500A41CE5 /* NotificationCenter.framework */; };
+		34B069361F2D9A9500A41CE5 /* TodayViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34B069351F2D9A9500A41CE5 /* TodayViewController.swift */; };
+		34B069391F2D9A9500A41CE5 /* MainInterface.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 34B069371F2D9A9500A41CE5 /* MainInterface.storyboard */; };
+		34B0693D1F2D9A9500A41CE5 /* Lose Weight with Math Today Extension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 34B069311F2D9A9500A41CE5 /* Lose Weight with Math Today Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		34B15B8E1F2A896D00F20346 /* HealthKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 34B15B8D1F2A896D00F20346 /* HealthKit.framework */; };
+		34C0B96A1F2EFA5600D8E571 /* Interface.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 34C0B9681F2EFA5600D8E571 /* Interface.storyboard */; };
+		34C0B96C1F2EFA5600D8E571 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 34C0B96B1F2EFA5600D8E571 /* Assets.xcassets */; };
+		34C0B9731F2EFA5600D8E571 /* Lose Weight with Math Watch Extension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 34C0B9721F2EFA5600D8E571 /* Lose Weight with Math Watch Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		34C0B9781F2EFA5600D8E571 /* InterfaceController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34C0B9771F2EFA5600D8E571 /* InterfaceController.swift */; };
+		34C0B97A1F2EFA5600D8E571 /* ExtensionDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34C0B9791F2EFA5600D8E571 /* ExtensionDelegate.swift */; };
+		34C0B97C1F2EFA5600D8E571 /* NotificationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34C0B97B1F2EFA5600D8E571 /* NotificationController.swift */; };
+		34C0B97E1F2EFA5600D8E571 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 34C0B97D1F2EFA5600D8E571 /* Assets.xcassets */; };
+		34D4C6701F295DFC00DE1C09 /* SettingsNotificationsVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34D4C66F1F295DFC00DE1C09 /* SettingsNotificationsVC.swift */; };
+		34D50CF21F2FFD0C008C4EE7 /* SearchFoodVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34D50CF11F2FFD0C008C4EE7 /* SearchFoodVC.swift */; };
+		34F90D251F39646200B29C84 /* AddFoodVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34F90D241F39646200B29C84 /* AddFoodVC.swift */; };
+		34F978D21F38262100402388 /* assets in Resources */ = {isa = PBXBuildFile; fileRef = 34F978D11F38262100402388 /* assets */; };
+		34FE37171F26D6EF0053D2E5 /* FirstTimeVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34FE37161F26D6EF0053D2E5 /* FirstTimeVC.swift */; };
+		34FEE2691F23F25400CB064F /* WeightLogVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34FEE2681F23F25400CB064F /* WeightLogVC.swift */; };
+		34FFC97C1F29A30300F028EB /* DayOverviewVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34FFC97B1F29A30300F028EB /* DayOverviewVC.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		3447B4121F12F18400A57AFA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3447B3F51F12F18400A57AFA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3447B3FC1F12F18400A57AFA;
+			remoteInfo = "Lose Weight with Math";
+		};
+		3447B41D1F12F18400A57AFA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3447B3F51F12F18400A57AFA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3447B3FC1F12F18400A57AFA;
+			remoteInfo = "Lose Weight with Math";
+		};
+		34B0693B1F2D9A9500A41CE5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3447B3F51F12F18400A57AFA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 34B069301F2D9A9500A41CE5;
+			remoteInfo = "Lose Weight with Math Today Extension";
+		};
+		34C0B9741F2EFA5600D8E571 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3447B3F51F12F18400A57AFA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 34C0B9711F2EFA5600D8E571;
+			remoteInfo = "Lose Weight with Math Watch Extension";
+		};
+		34C0B9811F2EFA5600D8E571 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3447B3F51F12F18400A57AFA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 34C0B9651F2EFA5600D8E571;
+			remoteInfo = "Lose Weight with Math Watch";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		34179BBB1F2C0C7500833C8E /* Embed Watch Content */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "$(CONTENTS_FOLDER_PATH)/Watch";
+			dstSubfolderSpec = 16;
+			files = (
+				3400A0421F356C0200992C40 /* Lose Weight with Math Watch.app in Embed Watch Content */,
+			);
+			name = "Embed Watch Content";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		34B069411F2D9A9500A41CE5 /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				34B0693D1F2D9A9500A41CE5 /* Lose Weight with Math Today Extension.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		34C0B9871F2EFA5600D8E571 /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				34C0B9731F2EFA5600D8E571 /* Lose Weight with Math Watch Extension.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		34D4C67F1F298C7F00DE1C09 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		3405EF841F39853C00D2A25B /* ConfirmFoodVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConfirmFoodVC.swift; sourceTree = "<group>"; };
+		3416BCE51F393FD800E8B98F /* beep.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = beep.mp3; sourceTree = "<group>"; };
+		3416BCE71F393FE600E8B98F /* beep.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = beep.mp3; sourceTree = "<group>"; };
+		34179BA01F2C0C7500833C8E /* Lose Weight Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "Lose Weight Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
+		341B477F1F2702EE00B37647 /* appLaunchVideo.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = appLaunchVideo.mp4; sourceTree = "<group>"; };
+		342925B91F285C390093226F /* MoreVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoreVC.swift; sourceTree = "<group>"; };
+		342925BB1F285C440093226F /* MyProfileVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyProfileVC.swift; sourceTree = "<group>"; };
+		342925BD1F285C4D0093226F /* MyGoalsVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyGoalsVC.swift; sourceTree = "<group>"; };
+		342925BF1F285C560093226F /* StatisticsVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StatisticsVC.swift; sourceTree = "<group>"; };
+		342925C11F285C5D0093226F /* SettingsVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsVC.swift; sourceTree = "<group>"; };
+		342925C31F285C650093226F /* AboutAppVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AboutAppVC.swift; sourceTree = "<group>"; };
+		342B65461F31249A00AE44AA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = "Lose Weight with Math/Base.lproj/MoreNew.storyboard"; sourceTree = "<group>"; };
+		342B65491F3125E200AE44AA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = "Lose Weight with Math/Base.lproj/DayOverview.storyboard"; sourceTree = "<group>"; };
+		342B654C1F31265500AE44AA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = "Lose Weight with Math/Base.lproj/WeightLog.storyboard"; sourceTree = "<group>"; };
+		342B654F1F3128A400AE44AA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = "Lose Weight with Math/Base.lproj/BMI.storyboard"; sourceTree = "<group>"; };
+		342B65521F3128FD00AE44AA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = "Lose Weight with Math/Base.lproj/SearchFood.storyboard"; sourceTree = "<group>"; };
+		342B65551F312A3500AE44AA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = "../../../../kaleb/Documents/SideProjects/Lose Weight with Math/Lose Weight with Math/Lose Weight with Math/Base.lproj/MoreSettings.storyboard"; sourceTree = "<group>"; };
+		342B65581F312A9D00AE44AA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = "Lose Weight with Math/Lose Weight with Math/Base.lproj/MoreProfile.storyboard"; sourceTree = "<group>"; };
+		342B655B1F312AD500AE44AA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = "Lose Weight with Math/Lose Weight with Math/Base.lproj/MoreGoals.storyboard"; sourceTree = "<group>"; };
+		343450401F1D4BB5007340C6 /* weight.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = weight.xcdatamodel; sourceTree = "<group>"; };
+		343450421F1D5206007340C6 /* profileVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = profileVC.swift; sourceTree = "<group>"; };
+		344765191F3A3AAF0068C1AD /* ViewFoodsVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewFoodsVC.swift; sourceTree = "<group>"; };
+		3447B3FD1F12F18400A57AFA /* Lose Weight with Math.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Lose Weight with Math.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		3447B4001F12F18400A57AFA /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		3447B4021F12F18400A57AFA /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		3447B4051F12F18400A57AFA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		3447B4071F12F18400A57AFA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		3447B40A1F12F18400A57AFA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		3447B40C1F12F18400A57AFA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3447B4111F12F18400A57AFA /* Lose Weight with MathTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Lose Weight with MathTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		3447B4151F12F18400A57AFA /* Lose_Weight_with_MathTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Lose_Weight_with_MathTests.swift; sourceTree = "<group>"; };
+		3447B4171F12F18400A57AFA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3447B41C1F12F18400A57AFA /* Lose Weight with MathUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Lose Weight with MathUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		3447B4201F12F18500A57AFA /* Lose_Weight_with_MathUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Lose_Weight_with_MathUITests.swift; sourceTree = "<group>"; };
+		3447B4221F12F18500A57AFA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3447B42E1F12F39D00A57AFA /* BmiVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BmiVC.swift; sourceTree = "<group>"; };
+		3448CEDB1F2A8E7A00C5799F /* WeightLogDetailsVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeightLogDetailsVC.swift; sourceTree = "<group>"; };
+		346FF58A1F27071E00402749 /* SetupVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = SetupVC.swift; path = "../../../../../kaleb/Documents/SideProjects/Lose Weight with Math/Lose Weight with Math/SetupVC.swift"; sourceTree = "<group>"; };
+		3473291A1F1E96CD007E67FC /* CustomSlider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomSlider.swift; sourceTree = "<group>"; };
+		347C8B651F37DC5000474C33 /* BarcodeReaderVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BarcodeReaderVC.swift; sourceTree = "<group>"; };
+		3480F3301F36AB0A00FD53B1 /* FoodDetailsVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = FoodDetailsVC.swift; path = "../../../../../kaleb/Documents/SideProjects/Lose Weight with Math/Lose Weight with Math/FoodDetailsVC.swift"; sourceTree = "<group>"; };
+		348A88951F3C3D4C009307BD /* AddCustomFoodVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddCustomFoodVC.swift; sourceTree = "<group>"; };
+		349B44271F2168130089DF69 /* logVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = logVC.swift; path = "../../../../../kaleb/Documents/SideProjects/Lose Weight with Math/Lose Weight with Math/logVC.swift"; sourceTree = "<group>"; };
+		34AF2A141F3C378900A2942F /* CustomFoodVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomFoodVC.swift; sourceTree = "<group>"; };
+		34B069311F2D9A9500A41CE5 /* Lose Weight with Math Today Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "Lose Weight with Math Today Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
+		34B069321F2D9A9500A41CE5 /* NotificationCenter.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = NotificationCenter.framework; path = System/Library/Frameworks/NotificationCenter.framework; sourceTree = SDKROOT; };
+		34B069351F2D9A9500A41CE5 /* TodayViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TodayViewController.swift; sourceTree = "<group>"; };
+		34B069381F2D9A9500A41CE5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/MainInterface.storyboard; sourceTree = "<group>"; };
+		34B0693A1F2D9A9500A41CE5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		34B069431F2D9D9B00A41CE5 /* Lose Weight with Math Today Extension.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; name = "Lose Weight with Math Today Extension.entitlements"; path = "Lose Weight with Math Today Extension/Lose Weight with Math Today Extension.entitlements"; sourceTree = "<group>"; };
+		34B15B8B1F2A895900F20346 /* Lose Weight with Math.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = "Lose Weight with Math.entitlements"; sourceTree = "<group>"; };
+		34B15B8D1F2A896D00F20346 /* HealthKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = HealthKit.framework; path = System/Library/Frameworks/HealthKit.framework; sourceTree = SDKROOT; };
+		34C0B9661F2EFA5600D8E571 /* Lose Weight with Math Watch.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Lose Weight with Math Watch.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		34C0B9691F2EFA5600D8E571 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Interface.storyboard; sourceTree = "<group>"; };
+		34C0B96B1F2EFA5600D8E571 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		34C0B96D1F2EFA5600D8E571 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		34C0B9721F2EFA5600D8E571 /* Lose Weight with Math Watch Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "Lose Weight with Math Watch Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
+		34C0B9771F2EFA5600D8E571 /* InterfaceController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InterfaceController.swift; sourceTree = "<group>"; };
+		34C0B9791F2EFA5600D8E571 /* ExtensionDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExtensionDelegate.swift; sourceTree = "<group>"; };
+		34C0B97B1F2EFA5600D8E571 /* NotificationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationController.swift; sourceTree = "<group>"; };
+		34C0B97D1F2EFA5600D8E571 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		34C0B97F1F2EFA5600D8E571 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		34C0B9801F2EFA5600D8E571 /* PushNotificationPayload.apns */ = {isa = PBXFileReference; lastKnownFileType = text; path = PushNotificationPayload.apns; sourceTree = "<group>"; };
+		34C0B98B1F2EFAE500D8E571 /* Lose Weight with Math Watch.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = "Lose Weight with Math Watch.entitlements"; sourceTree = "<group>"; };
+		34C0B98C1F2EFB0300D8E571 /* Lose Weight with Math Watch Extension.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = "Lose Weight with Math Watch Extension.entitlements"; sourceTree = "<group>"; };
+		34D4C66F1F295DFC00DE1C09 /* SettingsNotificationsVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsNotificationsVC.swift; sourceTree = "<group>"; };
+		34D50CF11F2FFD0C008C4EE7 /* SearchFoodVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = SearchFoodVC.swift; path = "../../../../../kaleb/Documents/SideProjects/Lose Weight with Math/Lose Weight with Math/SearchFoodVC.swift"; sourceTree = "<group>"; };
+		34F90D241F39646200B29C84 /* AddFoodVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = AddFoodVC.swift; path = "../../../../../kaleb/Documents/SideProjects/Lose Weight with Math/Lose Weight with Math/AddFoodVC.swift"; sourceTree = "<group>"; };
+		34F978D11F38262100402388 /* assets */ = {isa = PBXFileReference; lastKnownFileType = folder; name = assets; path = "../../../../../kaleb/Documents/SideProjects/Lose Weight with Math/Lose Weight with Math/assets"; sourceTree = "<group>"; };
+		34F978D31F39148700402388 /* beep-07.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "beep-07.mp3"; sourceTree = "<group>"; };
+		34FE37161F26D6EF0053D2E5 /* FirstTimeVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = FirstTimeVC.swift; path = "../../../../../kaleb/Documents/SideProjects/Lose Weight with Math/Lose Weight with Math/FirstTimeVC.swift"; sourceTree = "<group>"; };
+		34FEE2681F23F25400CB064F /* WeightLogVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeightLogVC.swift; sourceTree = "<group>"; };
+		34FFC97B1F29A30300F028EB /* DayOverviewVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = DayOverviewVC.swift; path = "../../../../../kaleb/Documents/SideProjects/Lose Weight with Math/Lose Weight with Math/DayOverviewVC.swift"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		34179B9D1F2C0C7500833C8E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3447B3FA1F12F18400A57AFA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				34B15B8E1F2A896D00F20346 /* HealthKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3447B40E1F12F18400A57AFA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3447B4191F12F18400A57AFA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		34B0692E1F2D9A9500A41CE5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				34B069331F2D9A9500A41CE5 /* NotificationCenter.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		34C0B96F1F2EFA5600D8E571 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		46A3DF5E0B737FC193888CA2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3447B3F41F12F18400A57AFA = {
+			isa = PBXGroup;
+			children = (
+				3416BCE51F393FD800E8B98F /* beep.mp3 */,
+				3416BCE71F393FE600E8B98F /* beep.mp3 */,
+				34F978D31F39148700402388 /* beep-07.mp3 */,
+				34B069431F2D9D9B00A41CE5 /* Lose Weight with Math Today Extension.entitlements */,
+				341B477F1F2702EE00B37647 /* appLaunchVideo.mp4 */,
+				3447B3FF1F12F18400A57AFA /* Lose Weight with Math */,
+				34B069341F2D9A9500A41CE5 /* Lose Weight with Math Today */,
+				34C0B9671F2EFA5600D8E571 /* Lose Weight with Math Watch */,
+				34C0B9761F2EFA5600D8E571 /* Lose Weight with Math Watch Extension */,
+				3447B3FE1F12F18400A57AFA /* Products */,
+				3447B41F1F12F18500A57AFA /* Lose Weight with MathUITests */,
+				3447B4141F12F18400A57AFA /* Lose Weight with MathTests */,
+				34B15B8C1F2A896D00F20346 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		3447B3FE1F12F18400A57AFA /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3447B3FD1F12F18400A57AFA /* Lose Weight with Math.app */,
+				3447B4111F12F18400A57AFA /* Lose Weight with MathTests.xctest */,
+				3447B41C1F12F18400A57AFA /* Lose Weight with MathUITests.xctest */,
+				34179BA01F2C0C7500833C8E /* Lose Weight Extension.appex */,
+				34B069311F2D9A9500A41CE5 /* Lose Weight with Math Today Extension.appex */,
+				34C0B9661F2EFA5600D8E571 /* Lose Weight with Math Watch.app */,
+				34C0B9721F2EFA5600D8E571 /* Lose Weight with Math Watch Extension.appex */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3447B3FF1F12F18400A57AFA /* Lose Weight with Math */ = {
+			isa = PBXGroup;
+			children = (
+				34F978D11F38262100402388 /* assets */,
+				342B65511F3128FD00AE44AA /* SearchFood.storyboard */,
+				342B654E1F3128A400AE44AA /* BMI.storyboard */,
+				342B654B1F31265500AE44AA /* WeightLog.storyboard */,
+				342B65481F3125E200AE44AA /* DayOverview.storyboard */,
+				342B65451F31249A00AE44AA /* MoreNew.storyboard */,
+				342B65571F312A9D00AE44AA /* MoreProfile.storyboard */,
+				342B655A1F312AD500AE44AA /* MoreGoals.storyboard */,
+				342B65541F312A3500AE44AA /* MoreSettings.storyboard */,
+				3447B4041F12F18400A57AFA /* Main.storyboard */,
+				34B15B8B1F2A895900F20346 /* Lose Weight with Math.entitlements */,
+				3447B4001F12F18400A57AFA /* AppDelegate.swift */,
+				344765191F3A3AAF0068C1AD /* ViewFoodsVC.swift */,
+				3447B4021F12F18400A57AFA /* ViewController.swift */,
+				348A88951F3C3D4C009307BD /* AddCustomFoodVC.swift */,
+				34AF2A141F3C378900A2942F /* CustomFoodVC.swift */,
+				3405EF841F39853C00D2A25B /* ConfirmFoodVC.swift */,
+				34F90D241F39646200B29C84 /* AddFoodVC.swift */,
+				347C8B651F37DC5000474C33 /* BarcodeReaderVC.swift */,
+				34D50CF11F2FFD0C008C4EE7 /* SearchFoodVC.swift */,
+				3448CEDB1F2A8E7A00C5799F /* WeightLogDetailsVC.swift */,
+				3480F3301F36AB0A00FD53B1 /* FoodDetailsVC.swift */,
+				34FFC97B1F29A30300F028EB /* DayOverviewVC.swift */,
+				342925B91F285C390093226F /* MoreVC.swift */,
+				342925BB1F285C440093226F /* MyProfileVC.swift */,
+				342925BD1F285C4D0093226F /* MyGoalsVC.swift */,
+				342925BF1F285C560093226F /* StatisticsVC.swift */,
+				342925C11F285C5D0093226F /* SettingsVC.swift */,
+				34D4C66F1F295DFC00DE1C09 /* SettingsNotificationsVC.swift */,
+				342925C31F285C650093226F /* AboutAppVC.swift */,
+				346FF58A1F27071E00402749 /* SetupVC.swift */,
+				34FE37161F26D6EF0053D2E5 /* FirstTimeVC.swift */,
+				34FEE2681F23F25400CB064F /* WeightLogVC.swift */,
+				349B44271F2168130089DF69 /* logVC.swift */,
+				3434503F1F1D4BB5007340C6 /* weight.xcdatamodeld */,
+				3447B42E1F12F39D00A57AFA /* BmiVC.swift */,
+				343450421F1D5206007340C6 /* profileVC.swift */,
+				3447B4071F12F18400A57AFA /* Assets.xcassets */,
+				3447B4091F12F18400A57AFA /* LaunchScreen.storyboard */,
+				3447B40C1F12F18400A57AFA /* Info.plist */,
+				3473291A1F1E96CD007E67FC /* CustomSlider.swift */,
+			);
+			path = "Lose Weight with Math";
+			sourceTree = "<group>";
+		};
+		3447B4141F12F18400A57AFA /* Lose Weight with MathTests */ = {
+			isa = PBXGroup;
+			children = (
+				3447B4151F12F18400A57AFA /* Lose_Weight_with_MathTests.swift */,
+				3447B4171F12F18400A57AFA /* Info.plist */,
+			);
+			path = "Lose Weight with MathTests";
+			sourceTree = "<group>";
+		};
+		3447B41F1F12F18500A57AFA /* Lose Weight with MathUITests */ = {
+			isa = PBXGroup;
+			children = (
+				3447B4201F12F18500A57AFA /* Lose_Weight_with_MathUITests.swift */,
+				3447B4221F12F18500A57AFA /* Info.plist */,
+			);
+			path = "Lose Weight with MathUITests";
+			sourceTree = "<group>";
+		};
+		34B069341F2D9A9500A41CE5 /* Lose Weight with Math Today */ = {
+			isa = PBXGroup;
+			children = (
+				34B069351F2D9A9500A41CE5 /* TodayViewController.swift */,
+				34B069371F2D9A9500A41CE5 /* MainInterface.storyboard */,
+				34B0693A1F2D9A9500A41CE5 /* Info.plist */,
+			);
+			name = "Lose Weight with Math Today";
+			path = "Lose Weight with Math Today Extension";
+			sourceTree = "<group>";
+		};
+		34B15B8C1F2A896D00F20346 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				34B15B8D1F2A896D00F20346 /* HealthKit.framework */,
+				34B069321F2D9A9500A41CE5 /* NotificationCenter.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		34C0B9671F2EFA5600D8E571 /* Lose Weight with Math Watch */ = {
+			isa = PBXGroup;
+			children = (
+				34C0B98B1F2EFAE500D8E571 /* Lose Weight with Math Watch.entitlements */,
+				34C0B9681F2EFA5600D8E571 /* Interface.storyboard */,
+				34C0B96B1F2EFA5600D8E571 /* Assets.xcassets */,
+				34C0B96D1F2EFA5600D8E571 /* Info.plist */,
+			);
+			path = "Lose Weight with Math Watch";
+			sourceTree = "<group>";
+		};
+		34C0B9761F2EFA5600D8E571 /* Lose Weight with Math Watch Extension */ = {
+			isa = PBXGroup;
+			children = (
+				34C0B98C1F2EFB0300D8E571 /* Lose Weight with Math Watch Extension.entitlements */,
+				34C0B9771F2EFA5600D8E571 /* InterfaceController.swift */,
+				34C0B9791F2EFA5600D8E571 /* ExtensionDelegate.swift */,
+				34C0B97B1F2EFA5600D8E571 /* NotificationController.swift */,
+				34C0B97D1F2EFA5600D8E571 /* Assets.xcassets */,
+				34C0B97F1F2EFA5600D8E571 /* Info.plist */,
+				34C0B9801F2EFA5600D8E571 /* PushNotificationPayload.apns */,
+			);
+			path = "Lose Weight with Math Watch Extension";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		34179B9F1F2C0C7500833C8E /* Lose Weight Extension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 34179BB81F2C0C7500833C8E /* Build configuration list for PBXNativeTarget "Lose Weight Extension" */;
+			buildPhases = (
+				34179B9C1F2C0C7500833C8E /* Sources */,
+				34179B9D1F2C0C7500833C8E /* Frameworks */,
+				34179B9E1F2C0C7500833C8E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Lose Weight Extension";
+			productName = "Lose Weight Extension";
+			productReference = 34179BA01F2C0C7500833C8E /* Lose Weight Extension.appex */;
+			productType = "com.apple.product-type.watchkit2-extension";
+		};
+		3447B3FC1F12F18400A57AFA /* Lose Weight with Math */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3447B4251F12F18500A57AFA /* Build configuration list for PBXNativeTarget "Lose Weight with Math" */;
+			buildPhases = (
+				3447B3F91F12F18400A57AFA /* Sources */,
+				3447B3FA1F12F18400A57AFA /* Frameworks */,
+				3447B3FB1F12F18400A57AFA /* Resources */,
+				34D4C67F1F298C7F00DE1C09 /* Embed Frameworks */,
+				34179BBB1F2C0C7500833C8E /* Embed Watch Content */,
+				34B069411F2D9A9500A41CE5 /* Embed App Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				34B0693C1F2D9A9500A41CE5 /* PBXTargetDependency */,
+				34C0B9821F2EFA5600D8E571 /* PBXTargetDependency */,
+			);
+			name = "Lose Weight with Math";
+			productName = "Lose Weight with Math";
+			productReference = 3447B3FD1F12F18400A57AFA /* Lose Weight with Math.app */;
+			productType = "com.apple.product-type.application";
+		};
+		3447B4101F12F18400A57AFA /* Lose Weight with MathTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3447B4281F12F18500A57AFA /* Build configuration list for PBXNativeTarget "Lose Weight with MathTests" */;
+			buildPhases = (
+				3447B40D1F12F18400A57AFA /* Sources */,
+				3447B40E1F12F18400A57AFA /* Frameworks */,
+				3447B40F1F12F18400A57AFA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3447B4131F12F18400A57AFA /* PBXTargetDependency */,
+			);
+			name = "Lose Weight with MathTests";
+			productName = "Lose Weight with MathTests";
+			productReference = 3447B4111F12F18400A57AFA /* Lose Weight with MathTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		3447B41B1F12F18400A57AFA /* Lose Weight with MathUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3447B42B1F12F18500A57AFA /* Build configuration list for PBXNativeTarget "Lose Weight with MathUITests" */;
+			buildPhases = (
+				3447B4181F12F18400A57AFA /* Sources */,
+				3447B4191F12F18400A57AFA /* Frameworks */,
+				3447B41A1F12F18400A57AFA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3447B41E1F12F18400A57AFA /* PBXTargetDependency */,
+			);
+			name = "Lose Weight with MathUITests";
+			productName = "Lose Weight with MathUITests";
+			productReference = 3447B41C1F12F18400A57AFA /* Lose Weight with MathUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+		34B069301F2D9A9500A41CE5 /* Lose Weight with Math Today Extension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 34B069401F2D9A9500A41CE5 /* Build configuration list for PBXNativeTarget "Lose Weight with Math Today Extension" */;
+			buildPhases = (
+				34B0692D1F2D9A9500A41CE5 /* Sources */,
+				34B0692E1F2D9A9500A41CE5 /* Frameworks */,
+				34B0692F1F2D9A9500A41CE5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Lose Weight with Math Today Extension";
+			productName = "Lose Weight with Math Today Extension";
+			productReference = 34B069311F2D9A9500A41CE5 /* Lose Weight with Math Today Extension.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
+		34C0B9651F2EFA5600D8E571 /* Lose Weight with Math Watch */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 34C0B9881F2EFA5600D8E571 /* Build configuration list for PBXNativeTarget "Lose Weight with Math Watch" */;
+			buildPhases = (
+				34C0B9641F2EFA5600D8E571 /* Resources */,
+				34C0B9871F2EFA5600D8E571 /* Embed App Extensions */,
+				46A3DF5E0B737FC193888CA2 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				34C0B9751F2EFA5600D8E571 /* PBXTargetDependency */,
+			);
+			name = "Lose Weight with Math Watch";
+			productName = "Lose Weight with Math Watch";
+			productReference = 34C0B9661F2EFA5600D8E571 /* Lose Weight with Math Watch.app */;
+			productType = "com.apple.product-type.application.watchapp2";
+		};
+		34C0B9711F2EFA5600D8E571 /* Lose Weight with Math Watch Extension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 34C0B9841F2EFA5600D8E571 /* Build configuration list for PBXNativeTarget "Lose Weight with Math Watch Extension" */;
+			buildPhases = (
+				34C0B96E1F2EFA5600D8E571 /* Sources */,
+				34C0B96F1F2EFA5600D8E571 /* Frameworks */,
+				34C0B9701F2EFA5600D8E571 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Lose Weight with Math Watch Extension";
+			productName = "Lose Weight with Math Watch Extension";
+			productReference = 34C0B9721F2EFA5600D8E571 /* Lose Weight with Math Watch Extension.appex */;
+			productType = "com.apple.product-type.watchkit2-extension";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3447B3F51F12F18400A57AFA /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0900;
+				LastUpgradeCheck = 0900;
+				ORGANIZATIONNAME = "Kaleb Cooper";
+				TargetAttributes = {
+					34179B9F1F2C0C7500833C8E = {
+						CreatedOnToolsVersion = 9.0;
+						SystemCapabilities = {
+							com.apple.ApplicationGroups.iOS = {
+								enabled = 1;
+							};
+							com.apple.Push = {
+								enabled = 1;
+							};
+						};
+					};
+					3447B3FC1F12F18400A57AFA = {
+						CreatedOnToolsVersion = 9.0;
+						ProvisioningStyle = Automatic;
+						SystemCapabilities = {
+							com.apple.ApplicationGroups.iOS = {
+								enabled = 1;
+							};
+							com.apple.HealthKit = {
+								enabled = 1;
+							};
+							com.apple.Push = {
+								enabled = 1;
+							};
+							com.apple.iCloud = {
+								enabled = 1;
+							};
+						};
+					};
+					3447B4101F12F18400A57AFA = {
+						CreatedOnToolsVersion = 9.0;
+						TestTargetID = 3447B3FC1F12F18400A57AFA;
+					};
+					3447B41B1F12F18400A57AFA = {
+						CreatedOnToolsVersion = 9.0;
+						TestTargetID = 3447B3FC1F12F18400A57AFA;
+					};
+					34B069301F2D9A9500A41CE5 = {
+						CreatedOnToolsVersion = 9.0;
+						SystemCapabilities = {
+							com.apple.ApplicationGroups.iOS = {
+								enabled = 1;
+							};
+						};
+					};
+					34C0B9651F2EFA5600D8E571 = {
+						CreatedOnToolsVersion = 9.0;
+						ProvisioningStyle = Automatic;
+						SystemCapabilities = {
+							com.apple.ApplicationGroups.iOS = {
+								enabled = 1;
+							};
+						};
+					};
+					34C0B9711F2EFA5600D8E571 = {
+						CreatedOnToolsVersion = 9.0;
+						SystemCapabilities = {
+							com.apple.ApplicationGroups.iOS = {
+								enabled = 1;
+							};
+							com.apple.Push = {
+								enabled = 1;
+							};
+						};
+					};
+				};
+			};
+			buildConfigurationList = 3447B3F81F12F18400A57AFA /* Build configuration list for PBXProject "Lose Weight with Math" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 3447B3F41F12F18400A57AFA;
+			productRefGroup = 3447B3FE1F12F18400A57AFA /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3447B3FC1F12F18400A57AFA /* Lose Weight with Math */,
+				3447B4101F12F18400A57AFA /* Lose Weight with MathTests */,
+				3447B41B1F12F18400A57AFA /* Lose Weight with MathUITests */,
+				34179B9F1F2C0C7500833C8E /* Lose Weight Extension */,
+				34B069301F2D9A9500A41CE5 /* Lose Weight with Math Today Extension */,
+				34C0B9651F2EFA5600D8E571 /* Lose Weight with Math Watch */,
+				34C0B9711F2EFA5600D8E571 /* Lose Weight with Math Watch Extension */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		34179B9E1F2C0C7500833C8E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3447B3FB1F12F18400A57AFA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3416BCE61F393FD800E8B98F /* beep.mp3 in Resources */,
+				342B65501F3128A400AE44AA /* BMI.storyboard in Resources */,
+				341B47801F2702EE00B37647 /* appLaunchVideo.mp4 in Resources */,
+				342B65561F312A3500AE44AA /* MoreSettings.storyboard in Resources */,
+				342B65531F3128FD00AE44AA /* SearchFood.storyboard in Resources */,
+				342B655C1F312AD500AE44AA /* MoreGoals.storyboard in Resources */,
+				342B654A1F3125E200AE44AA /* DayOverview.storyboard in Resources */,
+				342B65591F312A9D00AE44AA /* MoreProfile.storyboard in Resources */,
+				342B654D1F31265500AE44AA /* WeightLog.storyboard in Resources */,
+				34F978D21F38262100402388 /* assets in Resources */,
+				3447B40B1F12F18400A57AFA /* LaunchScreen.storyboard in Resources */,
+				3447B4081F12F18400A57AFA /* Assets.xcassets in Resources */,
+				3447B4061F12F18400A57AFA /* Main.storyboard in Resources */,
+				342B65471F31249A00AE44AA /* MoreNew.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3447B40F1F12F18400A57AFA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3447B41A1F12F18400A57AFA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		34B0692F1F2D9A9500A41CE5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				34B069391F2D9A9500A41CE5 /* MainInterface.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		34C0B9641F2EFA5600D8E571 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				34C0B96C1F2EFA5600D8E571 /* Assets.xcassets in Resources */,
+				34C0B96A1F2EFA5600D8E571 /* Interface.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		34C0B9701F2EFA5600D8E571 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				34C0B97E1F2EFA5600D8E571 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		34179B9C1F2C0C7500833C8E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3447B3F91F12F18400A57AFA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				342925C41F285C650093226F /* AboutAppVC.swift in Sources */,
+				34AF2A151F3C378900A2942F /* CustomFoodVC.swift in Sources */,
+				342925BC1F285C440093226F /* MyProfileVC.swift in Sources */,
+				34FFC97C1F29A30300F028EB /* DayOverviewVC.swift in Sources */,
+				34F90D251F39646200B29C84 /* AddFoodVC.swift in Sources */,
+				3447B4031F12F18400A57AFA /* ViewController.swift in Sources */,
+				34D50CF21F2FFD0C008C4EE7 /* SearchFoodVC.swift in Sources */,
+				342925BE1F285C4D0093226F /* MyGoalsVC.swift in Sources */,
+				347C8B661F37DC5000474C33 /* BarcodeReaderVC.swift in Sources */,
+				3447651A1F3A3AAF0068C1AD /* ViewFoodsVC.swift in Sources */,
+				348A88961F3C3D4C009307BD /* AddCustomFoodVC.swift in Sources */,
+				3473291B1F1E96CD007E67FC /* CustomSlider.swift in Sources */,
+				3447B42F1F12F39D00A57AFA /* BmiVC.swift in Sources */,
+				34D4C6701F295DFC00DE1C09 /* SettingsNotificationsVC.swift in Sources */,
+				342925BA1F285C390093226F /* MoreVC.swift in Sources */,
+				34FE37171F26D6EF0053D2E5 /* FirstTimeVC.swift in Sources */,
+				3405EF851F39853C00D2A25B /* ConfirmFoodVC.swift in Sources */,
+				3447B4011F12F18400A57AFA /* AppDelegate.swift in Sources */,
+				343450411F1D4BB5007340C6 /* weight.xcdatamodeld in Sources */,
+				346FF58B1F27071E00402749 /* SetupVC.swift in Sources */,
+				349B44281F2168130089DF69 /* logVC.swift in Sources */,
+				342925C01F285C560093226F /* StatisticsVC.swift in Sources */,
+				343450431F1D5206007340C6 /* profileVC.swift in Sources */,
+				34FEE2691F23F25400CB064F /* WeightLogVC.swift in Sources */,
+				3480F3311F36AB0A00FD53B1 /* FoodDetailsVC.swift in Sources */,
+				342925C21F285C5D0093226F /* SettingsVC.swift in Sources */,
+				3448CEDC1F2A8E7A00C5799F /* WeightLogDetailsVC.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3447B40D1F12F18400A57AFA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3447B4161F12F18400A57AFA /* Lose_Weight_with_MathTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3447B4181F12F18400A57AFA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3447B4211F12F18500A57AFA /* Lose_Weight_with_MathUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		34B0692D1F2D9A9500A41CE5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				34B069361F2D9A9500A41CE5 /* TodayViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		34C0B96E1F2EFA5600D8E571 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				34C0B97C1F2EFA5600D8E571 /* NotificationController.swift in Sources */,
+				34C0B97A1F2EFA5600D8E571 /* ExtensionDelegate.swift in Sources */,
+				34C0B9781F2EFA5600D8E571 /* InterfaceController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		3447B4131F12F18400A57AFA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3447B3FC1F12F18400A57AFA /* Lose Weight with Math */;
+			targetProxy = 3447B4121F12F18400A57AFA /* PBXContainerItemProxy */;
+		};
+		3447B41E1F12F18400A57AFA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3447B3FC1F12F18400A57AFA /* Lose Weight with Math */;
+			targetProxy = 3447B41D1F12F18400A57AFA /* PBXContainerItemProxy */;
+		};
+		34B0693C1F2D9A9500A41CE5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 34B069301F2D9A9500A41CE5 /* Lose Weight with Math Today Extension */;
+			targetProxy = 34B0693B1F2D9A9500A41CE5 /* PBXContainerItemProxy */;
+		};
+		34C0B9751F2EFA5600D8E571 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 34C0B9711F2EFA5600D8E571 /* Lose Weight with Math Watch Extension */;
+			targetProxy = 34C0B9741F2EFA5600D8E571 /* PBXContainerItemProxy */;
+		};
+		34C0B9821F2EFA5600D8E571 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 34C0B9651F2EFA5600D8E571 /* Lose Weight with Math Watch */;
+			targetProxy = 34C0B9811F2EFA5600D8E571 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		342B65451F31249A00AE44AA /* MoreNew.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				342B65461F31249A00AE44AA /* Base */,
+			);
+			name = MoreNew.storyboard;
+			sourceTree = "<group>";
+		};
+		342B65481F3125E200AE44AA /* DayOverview.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				342B65491F3125E200AE44AA /* Base */,
+			);
+			name = DayOverview.storyboard;
+			sourceTree = "<group>";
+		};
+		342B654B1F31265500AE44AA /* WeightLog.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				342B654C1F31265500AE44AA /* Base */,
+			);
+			name = WeightLog.storyboard;
+			sourceTree = "<group>";
+		};
+		342B654E1F3128A400AE44AA /* BMI.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				342B654F1F3128A400AE44AA /* Base */,
+			);
+			name = BMI.storyboard;
+			sourceTree = "<group>";
+		};
+		342B65511F3128FD00AE44AA /* SearchFood.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				342B65521F3128FD00AE44AA /* Base */,
+			);
+			name = SearchFood.storyboard;
+			sourceTree = "<group>";
+		};
+		342B65541F312A3500AE44AA /* MoreSettings.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				342B65551F312A3500AE44AA /* Base */,
+			);
+			name = MoreSettings.storyboard;
+			sourceTree = "<group>";
+		};
+		342B65571F312A9D00AE44AA /* MoreProfile.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				342B65581F312A9D00AE44AA /* Base */,
+			);
+			name = MoreProfile.storyboard;
+			sourceTree = "<group>";
+		};
+		342B655A1F312AD500AE44AA /* MoreGoals.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				342B655B1F312AD500AE44AA /* Base */,
+			);
+			name = MoreGoals.storyboard;
+			sourceTree = "<group>";
+		};
+		3447B4041F12F18400A57AFA /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3447B4051F12F18400A57AFA /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		3447B4091F12F18400A57AFA /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3447B40A1F12F18400A57AFA /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		34B069371F2D9A9500A41CE5 /* MainInterface.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				34B069381F2D9A9500A41CE5 /* Base */,
+			);
+			name = MainInterface.storyboard;
+			sourceTree = "<group>";
+		};
+		34C0B9681F2EFA5600D8E571 /* Interface.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				34C0B9691F2EFA5600D8E571 /* Base */,
+			);
+			name = Interface.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		34179BB61F2C0C7500833C8E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_COMPLICATION_NAME = Complication;
+				CODE_SIGN_ENTITLEMENTS = "Lose Weight with Math Watch Extension/Lose Weight with Math Watch Extension.entitlements";
+				DEVELOPMENT_TEAM = VPT5835T5T;
+				INFOPLIST_FILE = "Less Wait Less Weight/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.kalebcooper.Less-Wait-Less-Weight.watchkitapp.watchkitextension";
+				PRODUCT_NAME = "${TARGET_NAME}";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 3.2;
+			};
+			name = Debug;
+		};
+		34179BB71F2C0C7500833C8E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_COMPLICATION_NAME = Complication;
+				CODE_SIGN_ENTITLEMENTS = "Lose Weight with Math Watch Extension/Lose Weight with Math Watch Extension.entitlements";
+				DEVELOPMENT_TEAM = VPT5835T5T;
+				INFOPLIST_FILE = "Less Wait Less Weight/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.kalebcooper.Less-Wait-Less-Weight.watchkitapp.watchkitextension";
+				PRODUCT_NAME = "${TARGET_NAME}";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 3.2;
+			};
+			name = Release;
+		};
+		3447B4231F12F18500A57AFA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 4.0;
+			};
+			name = Debug;
+		};
+		3447B4241F12F18500A57AFA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 4.0;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		3447B4261F12F18500A57AFA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = iOSAppIcon;
+				CODE_SIGN_ENTITLEMENTS = "Lose Weight with Math/Lose Weight with Math.entitlements";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = VPT5835T5T;
+				INFOPLIST_FILE = "Lose Weight with Math/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.kalebcooper.Less-Wait-Less-Weight";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		3447B4271F12F18500A57AFA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = iOSAppIcon;
+				CODE_SIGN_ENTITLEMENTS = "Lose Weight with Math/Lose Weight with Math.entitlements";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = VPT5835T5T;
+				INFOPLIST_FILE = "Lose Weight with Math/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.kalebcooper.Less-Wait-Less-Weight";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+		3447B4291F12F18500A57AFA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = VPT5835T5T;
+				INFOPLIST_FILE = "Lose Weight with MathTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "KalebCooper.Lose-Weight-with-MathTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Lose Weight with Math.temp_caseinsensitive_rename.app/Lose Weight with Math.temp_caseinsensitive_rename";
+			};
+			name = Debug;
+		};
+		3447B42A1F12F18500A57AFA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = VPT5835T5T;
+				INFOPLIST_FILE = "Lose Weight with MathTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "KalebCooper.Lose-Weight-with-MathTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Lose Weight with Math.temp_caseinsensitive_rename.app/Lose Weight with Math.temp_caseinsensitive_rename";
+			};
+			name = Release;
+		};
+		3447B42C1F12F18500A57AFA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = VPT5835T5T;
+				INFOPLIST_FILE = "Lose Weight with MathUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "KalebCooper.Lose-Weight-with-MathUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Lose Weight with Math";
+			};
+			name = Debug;
+		};
+		3447B42D1F12F18500A57AFA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = VPT5835T5T;
+				INFOPLIST_FILE = "Lose Weight with MathUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "KalebCooper.Lose-Weight-with-MathUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Lose Weight with Math";
+			};
+			name = Release;
+		};
+		34B0693E1F2D9A9500A41CE5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = "Lose Weight with Math Today Extension/Lose Weight with Math Today Extension.entitlements";
+				DEVELOPMENT_TEAM = VPT5835T5T;
+				INFOPLIST_FILE = "Lose Weight with Math Today Extension/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.kalebcooper.Less-Wait-Less-Weight.Lose-Weight-with-Math-Today-Extension";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		34B0693F1F2D9A9500A41CE5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = "Lose Weight with Math Today Extension/Lose Weight with Math Today Extension.entitlements";
+				DEVELOPMENT_TEAM = VPT5835T5T;
+				INFOPLIST_FILE = "Lose Weight with Math Today Extension/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.kalebcooper.Less-Wait-Less-Weight.Lose-Weight-with-Math-Today-Extension";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		34C0B9851F2EFA5600D8E571 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_COMPLICATION_NAME = Complication;
+				CODE_SIGN_ENTITLEMENTS = "Lose Weight with Math Watch Extension/Lose Weight with Math Watch Extension.entitlements";
+				DEVELOPMENT_TEAM = VPT5835T5T;
+				INFOPLIST_FILE = "Lose Weight with Math Watch Extension/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.kalebcooper.Less-Wait-Less-Weight.watchkitapp.watchkitextension";
+				PRODUCT_NAME = "${TARGET_NAME}";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 3.2;
+			};
+			name = Debug;
+		};
+		34C0B9861F2EFA5600D8E571 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_COMPLICATION_NAME = Complication;
+				CODE_SIGN_ENTITLEMENTS = "Lose Weight with Math Watch Extension/Lose Weight with Math Watch Extension.entitlements";
+				DEVELOPMENT_TEAM = VPT5835T5T;
+				INFOPLIST_FILE = "Lose Weight with Math Watch Extension/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.kalebcooper.Less-Wait-Less-Weight.watchkitapp.watchkitextension";
+				PRODUCT_NAME = "${TARGET_NAME}";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 3.2;
+			};
+			name = Release;
+		};
+		34C0B9891F2EFA5600D8E571 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = WatchAppIcon;
+				CODE_SIGN_ENTITLEMENTS = "Lose Weight with Math Watch/Lose Weight with Math Watch.entitlements";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = VPT5835T5T;
+				IBSC_MODULE = Lose_Weight_with_Math_Watch_Extension;
+				INFOPLIST_FILE = "Lose Weight with Math Watch/Info.plist";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.kalebcooper.Less-Wait-Less-Weight.watchkitapp";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 3.2;
+			};
+			name = Debug;
+		};
+		34C0B98A1F2EFA5600D8E571 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = WatchAppIcon;
+				CODE_SIGN_ENTITLEMENTS = "Lose Weight with Math Watch/Lose Weight with Math Watch.entitlements";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = VPT5835T5T;
+				IBSC_MODULE = Lose_Weight_with_Math_Watch_Extension;
+				INFOPLIST_FILE = "Lose Weight with Math Watch/Info.plist";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.kalebcooper.Less-Wait-Less-Weight.watchkitapp";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 3.2;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		34179BB81F2C0C7500833C8E /* Build configuration list for PBXNativeTarget "Lose Weight Extension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				34179BB61F2C0C7500833C8E /* Debug */,
+				34179BB71F2C0C7500833C8E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3447B3F81F12F18400A57AFA /* Build configuration list for PBXProject "Lose Weight with Math" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3447B4231F12F18500A57AFA /* Debug */,
+				3447B4241F12F18500A57AFA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3447B4251F12F18500A57AFA /* Build configuration list for PBXNativeTarget "Lose Weight with Math" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3447B4261F12F18500A57AFA /* Debug */,
+				3447B4271F12F18500A57AFA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3447B4281F12F18500A57AFA /* Build configuration list for PBXNativeTarget "Lose Weight with MathTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3447B4291F12F18500A57AFA /* Debug */,
+				3447B42A1F12F18500A57AFA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3447B42B1F12F18500A57AFA /* Build configuration list for PBXNativeTarget "Lose Weight with MathUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3447B42C1F12F18500A57AFA /* Debug */,
+				3447B42D1F12F18500A57AFA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		34B069401F2D9A9500A41CE5 /* Build configuration list for PBXNativeTarget "Lose Weight with Math Today Extension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				34B0693E1F2D9A9500A41CE5 /* Debug */,
+				34B0693F1F2D9A9500A41CE5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		34C0B9841F2EFA5600D8E571 /* Build configuration list for PBXNativeTarget "Lose Weight with Math Watch Extension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				34C0B9851F2EFA5600D8E571 /* Debug */,
+				34C0B9861F2EFA5600D8E571 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		34C0B9881F2EFA5600D8E571 /* Build configuration list for PBXNativeTarget "Lose Weight with Math Watch" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				34C0B9891F2EFA5600D8E571 /* Debug */,
+				34C0B98A1F2EFA5600D8E571 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		3434503F1F1D4BB5007340C6 /* weight.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				343450401F1D4BB5007340C6 /* weight.xcdatamodel */,
+			);
+			currentVersion = 343450401F1D4BB5007340C6 /* weight.xcdatamodel */;
+			name = weight.xcdatamodeld;
+			path = "../../../../../kaleb/Documents/SideProjects/Lose Weight with Math/Lose Weight with Math/weight.xcdatamodeld";
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 3447B3F51F12F18400A57AFA /* Project object */;
+}
