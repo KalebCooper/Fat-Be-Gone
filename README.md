@@ -1,7 +1,3 @@
-![Logo](/Users/kaleb/Documents/SideProjects/Lose Weight with Math/Logo.png)
-
-
-
 # 	Fat Be Gone - iOS 11 & watchOS 4 App
 
 
@@ -9,7 +5,6 @@
 - [Features](#features)
 - [Requirements](#requirements)
 - [Installation](#installation)
-- [Usage](#usage)
 - [FAQ](#faq)
 
 
